@@ -1,0 +1,49 @@
+header {
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: roboto;
+}
+
+legend {
+
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+
+}
+
+label {
+	display: block;
+	width: 170px;
+	font-weight: bold;
+	font-family: roboto;
+
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #FE4365;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+

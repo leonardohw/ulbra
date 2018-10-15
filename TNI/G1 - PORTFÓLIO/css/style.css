@@ -1,0 +1,267 @@
+body {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	color:#b62a25;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+
+
+}
+
+content {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #f0f0f0;
+}
+
+header {
+	color: black;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+
+nav {
+	background: #292929;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	font-family: Roboto;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 17px;
+	background: #292929;
+}
+
+label {
+	width: 170px;
+	font-weight: bold;
+	font-family: roboto;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #FE4365;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+#logo {
+	float: left;
+	padding: 15px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.info {
+	float: right;
+	padding: 15px;
+	font-family: roboto;
+	font-size: 16px;
+	color: black;
+	margin-top: 40px;
+	font-weight: normal;
+
+}
+
+.nav {
+	color: #FFF;
+	float: left;
+	margin-left: 15px;
+	padding: 10px;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: #f0f0f0;
+
+}
+
+.linha {
+	width: 1px;
+	height: 20px;
+	padding-top: 2px;
+	background: white;
+	margin-top: 11px;
+	margin-left: 20px;
+	float: left;
+	padding-bottom: 2px;
+}
+
+#tabelas {
+	background: #f0f0f0;
+	width: 100%;
+	float: left;
+	padding-bottom: 70px;
+}
+
+#tabelas2 {
+	background: #f0f0f0;
+	width: 100%;
+	float: left;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.tabela1 img:hover {
+	transform: scale(1.1);
+	margin-bottom: 5px;
+}
+
+.tabela2 img:hover {
+	transform: scale(1.1);
+	margin-bottom: 9px;
+}
+
+.tabela1 {
+	background: #f0f0f0;
+	width: 50%;
+	text-align: right;
+	margin-right: 10px;
+	float:left;
+
+}
+
+.tabela2 {
+	background: #f0f0f0;
+	width: 40%;
+	text-align: left;
+	float:left;
+}
+
+.tabela3 {
+	background: #f0f0f0;
+	width: 30%;
+	text-align: right;
+	margin-right: 10px;
+	float:left;
+
+}
+
+
+.tabela4 {
+	margin-top: 120px;
+	background: #f0f0f0;
+	width: 60%;
+	text-align: left;
+	float:left;
+	margin-left: 20px;
+}
+
+.tabela5 {
+	background: #f0f0f0;
+	width: 50%;
+	text-align: center;
+	float:left;
+	margin-top: 40px;
+
+}
+
+.tabela6 {
+	background: #f0f0f0;
+	width: 40%;
+	text-align: center;
+	float:left;
+	margin-top: 40px;
+}
+
+.tabela5 img:hover {
+	transform: scale(1.1);
+	margin-bottom: 13px;
+}
+
+.tabela6 img:hover {
+	transform: scale(1.1);
+	margin-bottom: 10px;
+}
+
+
+
+
+.imgborder {
+	max-width: 500px;
+
+}
+
+.imgservicos {
+	max-width: 350px;
+	margin-bottom: 30px;
+
+}
+
+.imgradius {
+	margin-top: 30px;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+.txtcont {
+	font-size: 20px;
+	font-family: Roboto;
+	margin-right: 115px;
+}
+
+.txtservicos {
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+
+.txtcont2 {
+	font-size: 20px;
+	font-family: Roboto;
+	margin-left: 135px;
+}
+
+.social {
+	float: right;
+	margin-right:20px;
+	margin-top: 9px;
+}
+
+.social:hover {
+	transform: scale(1.2);
+}
+
+.form {
+	margin-top: 30px;
+}
