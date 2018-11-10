@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<form>
+		<label>Digite o primeiro número:</label>
+		<input type="text" name="n1" id = "n1"/> <br>
+		<label>Digite o segundo número: </label>
+		<input type="text" name="n2" id = "n2"> <br>
+
+		<select id="operacao">
+			<option>Selecione a operação!</option>
+	    	<option value="+">Adição</option>
+	    	<option value="-">Subtração</option>
+	    	<option value="*">Multiplicação</option>
+	    	<option value="/">Divisão</option>
+		</select> <br>
+
+		<button type="submit" onclick="calculadora()">Calcular!</button>
+	</form>
+
+</body>
+</html>
