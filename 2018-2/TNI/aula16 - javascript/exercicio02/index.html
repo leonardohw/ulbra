@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangulos</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<form>
+		<h1>Descubra o tipo do seu Triangulo</h1>
+
+
+		<label>Digite o valor do primeiro lado:</label>
+		<input type="text" name="lado1" id = "lado1"> <br>
+		
+		<label>Digite o valor do segundo lado: </label>
+		<input type="text" name="lado2" id = "lado2"> <br>
+		
+		<label>Digite o valor do terceiro lado:</label>
+		<input type="text" name="lado3" id="lado3"> <br>
+
+		<input type="button" onclick="descobrirTriangulo(lado1.value, lado2.value, lado3.value)" value="Descobrir">
+
+	</form>
+
+	<div id="triangulo"></div>
+
+</body>
+</html>
