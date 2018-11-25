@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validação de formulário</title>
+	<meta charset="utf-8">	
+
+
+	<!--JAVASCRIPT-->
+	<script type="text/javascript" src="script.js"></script>
+
+	<!--BOOTSTRAP-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+	<form class="form-group" name="formulario">
+
+		<label class="ml-2 mt-2 font-weight-bold" for="nome">Nome:</label>
+		<input class="form-control" type="text" name="nome" placeholder="Digite o seu nome..."><br>
+
+		<label class="ml-2 mt-2 font-weight-bold" for="email">E-mail:</label>
+		<input class="form-control" type="email" name="email" placeholder="Digite o seu e-mail.."><br>
+
+		<label class="ml-2 font-weight-bold" for="genero">Gênero:</label><br>
+		<input class="ml-2" type="radio" name="genero" value="m"> Masculino
+		<input class="ml-2" type="radio" name="genero" value="f"> Feminino<br><br>
+
+		<select class="form-control" name="assunto">
+			<option value="selecione">Selecione o assunto...</option>
+			<option value="orcamento">Orçamento</option>
+			<option value="financeiro">Financeiro</option>
+			<option value="suporte">Suporte</option>
+		</select>
+			
+		<input class="btn btn-primary ml-2 mt-3" type="button" name="submit" value="Enviar" onclick="validarformulario()">
+
+		<div class="text-center">
+		
+			<p class="ml-3 font-weight-bold" style="font-size: 24px;" id="resposta_sexo"></p>
+			<p class="ml-3 font-weight-bold" style="font-size: 20px;" id="resposta_nome"></p>
+			<p class="ml-3 font-weight-bold" style="font-size: 16px;" id="resposta_email"></p>
+			<p class="ml-3 font-weight-bold" style="font-size: 12px;" id="resposta_assunto"></p>
+
+		</div>
+
+	</form>
+
+</body>
+</html>
